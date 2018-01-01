@@ -1,6 +1,5 @@
 var os = require('os');
 var convertTimeModule = require ('./convertTime');
-
 function getOSinfo() {
     var type = os.type();
     if(type === 'Darwin') {
@@ -20,8 +19,6 @@ function getOSinfo() {
     console.log('User name:', userInfo.username);
     console.log('Home dir:', userInfo.homedir);
 }
-
 module.exports = {
      getOSinfo:getOSinfo
-  
 };
