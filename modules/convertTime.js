@@ -1,6 +1,4 @@
 //==Converting time in seconds to hours, minutes and seconds ==
-
-
 function convertTime(seconds) {
      var i = seconds;
             if (i>=3600) {
@@ -15,13 +13,7 @@ function convertTime(seconds) {
                 return (' '+i+' seconds '+'are '+y+' minutes'+' and '+z+' seconds.'+'\n');
             }           
 }   
-
-
-
-
-
 module.exports = {
-    convertTime:convertTime
- 
+    convertTime:convertTime 
 };
 
